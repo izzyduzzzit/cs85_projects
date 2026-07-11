@@ -21,3 +21,7 @@ Route::get('/cs85_module2b/cosmic_calendar.php', function () {
 Route::get('/module4b/show_inventory.php', function () {
     require base_path('module4b/show_inventory.php');
 });
+
+Route::get('/module4b/style/style.css', function () {
+    require base_path('module4b/style/style.css');
+});
