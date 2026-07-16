@@ -25,3 +25,7 @@ Route::get('/module4b/show_inventory.php', function () {
 Route::get('/module4b/style/style.css', function () {
     require base_path('module4b/style/style.css');
 });
+
+Route::get('/module3b/ContactForm.php', function () {
+    require base_path('module3b/ContactForm.php');
+});
